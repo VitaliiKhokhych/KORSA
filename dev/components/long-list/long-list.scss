@@ -1,0 +1,24 @@
+.long-list{
+  .long-list--inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    @for $var from 1 through 13 {
+      .long-list--item#{$var}{
+        background: url("images/long_list#{$var}.jpg");
+      }
+    }
+    .long-list--item{
+      height: 50px;
+      padding-left: 40px;
+      background-position:  left center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      p{
+        margin: 0 0 0;
+      }
+    }
+  }
+}

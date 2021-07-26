@@ -1,0 +1,31 @@
+body, ul, li{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: $font1;
+  font-size: 16px;
+  font-weight: 400;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+
+.button{
+  width: 144px;
+  height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.block{
+  display: block;
+}

@@ -1,0 +1,35 @@
+.common{
+  .common--inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    .common--title{
+      font-family: $font2;
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #0e3d6b;
+      @include media-xs(){
+        font-size: 20px;
+      }
+      @include media(320px){
+        font-size: 14px;
+      }
+    }
+    .common--page-name{
+      font-family: $font2;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #777777;
+    }
+    .common--text{
+      font-family: $font4;
+      font-size: 16px;
+      font-weight: 400;
+      color: #0e3d6b;
+    }
+  }
+}
+  
+  

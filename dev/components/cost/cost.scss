@@ -1,0 +1,89 @@
+.cost{
+  .cost--inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    .cost--title{
+      font-family: $font4;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: $first-color;
+      margin-bottom: 20px;
+    }
+    .cost--text{
+      font-family: $font4;
+      color: $first-color;
+    }
+    .cost--media-wrapper{
+      .cost--media{
+        margin-top: 15px!important;
+        .media-body{
+          height: 180px;
+          .media--text{
+            text-align: center;
+          }
+        }
+        .economia{
+          color: $white;
+          text-align: center;
+          width: 80px;
+          height: 47px;
+          background-color: $red;
+          border-radius: 10px;
+          position: relative;
+          top: 5px;
+          left: -90px;
+        }
+        .cost--link{
+          img{
+            height: 213px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.media--text1{
+  font-family: $font5;
+  text-decoration: underline;
+  color: #044d91;
+}
+.media--text2{
+  font-family: $font4;
+  color: $grey;
+  span{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: line-through;
+  }
+}
+.media--text3{
+  span{
+    &:nth-child(1){
+      font-family: $font4;
+      color: $grey;
+    }
+    &:nth-child(2){
+      font-family: $font4;
+      font-size: 36px;
+      font-weight: 700;
+      color: $orange;
+    }
+    &:nth-child(3){
+      font-size: 22.2px;
+      color: #044d91;
+    }
+  }
+}
+.cost--button{
+  background-color: $green;
+  font-family: $font3;
+}
+.col-centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+

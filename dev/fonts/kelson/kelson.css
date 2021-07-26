@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'Kelson Sans';
+    src: local('Kelson Sans Regular RU'), 
+         local('KelsonSans-RegularRU'), 
+         url('fonts/kelsonsansregularru.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kelson Sans';
+    src: local('Kelson Sans Bold RU'), 
+         local('KelsonSans-BoldRU'), 
+         url('fonts/kelsonsansboldru.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* @font-face local */

@@ -1,0 +1,38 @@
+
+.slider{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.slick-arrow{
+  width: 40px;
+  height: 40px;
+  background: url("images/arrow.png") center no-repeat!important;
+}
+
+.slick-prev{
+  left: 0;
+}
+
+.slick-next{
+  top: 42%;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.slick-prev:before, 
+.slick-next:before{
+  content: "";
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.item{
+  width: 210px;
+  height: 210px;
+}
